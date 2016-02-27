@@ -7,7 +7,7 @@ gcc -m64 -D MD=5 mddriver.c md5c.c  -o mymd5
 
 this creates an executable file mymd5. Now one can call mymd5. Here the description of this executable form RCF1321:
 
->>>>>
+----------
 
 Arguments (may be any combination):
 
@@ -44,6 +44,6 @@ MD5 ("123456789012345678901234567890123456789012345678901234567890123456
 
 78901234567890") = 57edf4a22be3c955ac49da2e2107b67a
 
-<<<<<
+----------
 
 But my program has a different output when called with the - option. So I have to check if I made errors when I created the files. Especially when I removed the page headers and footers.
